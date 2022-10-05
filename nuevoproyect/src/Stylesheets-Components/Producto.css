@@ -1,0 +1,31 @@
+.contenedor-producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 310px;
+}
+
+.producto-imagen{
+    width: 90%;
+    height: 40%;
+    object-fit: contain;
+}
+
+.producto-nombre{
+    font-size: 15px;
+    margin: 0;
+}
+
+.producto-precio{
+    margin: 0;
+}
+
+
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
