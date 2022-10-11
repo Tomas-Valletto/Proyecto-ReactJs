@@ -9,7 +9,7 @@ import "../Stylesheets-Components/Buscador.css"
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: alpha(theme.palette.common.white, 1.15),
+    backgroundColor: alpha(theme.palette.common.white, 1.0),
     '&:hover': {
       backgroundColor: alpha(theme.palette.common.white, 0.75),
     },
