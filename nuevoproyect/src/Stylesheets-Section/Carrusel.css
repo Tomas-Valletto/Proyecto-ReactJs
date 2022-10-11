@@ -1,6 +1,7 @@
 .contenedor-carrusel {
   height: 200px;
   margin: 15px 0;
+
 }
 
 .carrusel-imagen {
@@ -9,4 +10,8 @@
   object-fit: contain;
   margin-top: 80px;
   background-color: aquamarine;
+}
+
+.carousel-indicators{
+  visibility: hidden;
 }

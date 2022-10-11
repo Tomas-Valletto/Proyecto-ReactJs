@@ -5,6 +5,7 @@ import image from "../Assets/logo.png"
 import "../Stylesheets-Section/Header.css"
 import Categoria from "../Components/Categoria";
 import Carrito from "../Components/Carrito";
+import Buscador from "../Components/Buscador";
 
 
 
@@ -15,7 +16,7 @@ const Header = ({ contador }) => {
     
     <div className="contenedor-header">
         <Logo logo={image}/>
-        <Categoria/>
+        <Buscador/>
         <Carrito contador={contador}/>
     </div>
 
