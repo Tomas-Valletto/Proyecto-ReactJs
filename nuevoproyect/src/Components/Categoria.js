@@ -7,6 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
+import "../Stylesheets-Components/Categoria.css"
 
 
 
@@ -46,7 +47,7 @@ export default function Categoria() {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{<ManageSearchIcon style={{height:"50px", width:"50px"}} fontSize='large'/>}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}>{<ManageSearchIcon className='buscador-icono' style={{height:"50px", width:"50px"}} fontSize='large'/>}</Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
