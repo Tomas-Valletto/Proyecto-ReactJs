@@ -9,6 +9,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 
 
+
 export default function Categoria() {
   const [state, setState] = React.useState({
     left: false,
