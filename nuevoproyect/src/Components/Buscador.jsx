@@ -52,7 +52,7 @@ const Search = styled('div')(({ theme }) => ({
 const Buscador = () => {
   return (
     <Search className='buscador'>
-        <SearchIconWrapper className='buscador-icono'>
+        <SearchIconWrapper>
             <SearchIcon />
         </SearchIconWrapper>
         <StyledInputBase

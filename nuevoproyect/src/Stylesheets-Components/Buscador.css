@@ -1,10 +1,11 @@
-.buscador{
 
-}
 
-.buscador-icono{
-
-}
-.buscador-texto{
-
-}
+@media screen and (max-width: 605px) {
+    .buscador {
+      visibility: hidden;
+      width: 0;
+    }
+    .buscador-texto{
+      width: 0;
+    }
+  }

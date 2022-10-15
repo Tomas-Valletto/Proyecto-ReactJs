@@ -32,7 +32,7 @@ export default function Categoria() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Mouses', 'Auriculares', 'Monitores', 'Notebooks'].map((text, index) => (
+        {['Mouses', 'Auriculares'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => console.log(text)}>
               <ListItemText primary={text} />

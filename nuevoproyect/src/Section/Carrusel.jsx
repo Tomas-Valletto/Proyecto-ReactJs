@@ -10,12 +10,18 @@ import "../Stylesheets-Section/Carrusel.css"
 
 const Carrusel = () => {
 
-  let i = 0
-  let productosCarrusel = []
-  while (i<10) {
-    productosCarrusel.push(productos[i])
-    i++
+  const [carrusel, setCarrusel] = useState({productos:[]})
+
+  const cargarProducto = async () => {
+    const res = await axios.get('http://localhost:5000/productos')
+    setCarrusel({
+      productos: res.data
+    })
   }
+
+  useEffect(()=>{
+    cargarProducto()
+  },[])
 
 
   const [index, setIndex] = useState(0);
@@ -26,8 +32,8 @@ const Carrusel = () => {
 
   return (
         <Carousel activeIndex={index} onSelect={handleSelect} className="contenedor-carrusel" >
-            {productosCarrusel.map((producto) =>   
-              <Carousel.Item key={producto.id}>        
+            {carrusel.productos.map((producto, index) =>   
+              <Carousel.Item key={index} >        
                 <img
                   className="d-block carrusel-imagen"
                   src={producto.image}
