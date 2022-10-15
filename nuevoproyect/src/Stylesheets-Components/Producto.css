@@ -5,7 +5,11 @@
   align-items: center;
   width: 100px;
   height: 150px;
+<<<<<<< HEAD
   margin: 180px 22px 0px 22px;
+=======
+  margin-top: 180px;
+>>>>>>> main
 }
 
 .producto-imagen {

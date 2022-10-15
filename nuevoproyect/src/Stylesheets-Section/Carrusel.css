@@ -1,7 +1,10 @@
 .contenedor-carrusel {
   height: 200px;
   margin: 15px 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 }
 
 .carrusel-imagen {
@@ -11,7 +14,10 @@
   margin-top: 80px;
   background-color: aquamarine;
 }
+<<<<<<< HEAD
 
 .carousel-indicators{
   visibility: hidden;
 }
+=======
+>>>>>>> main
