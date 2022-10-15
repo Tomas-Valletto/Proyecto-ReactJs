@@ -17,7 +17,7 @@ export default function Carrito({ contador }) {
   return (
     <IconButton aria-label="cart">
       <StyledBadge badgeContent={ contador } color="primary">
-        <ShoppingCartIcon fontSize="large"/>
+        <ShoppingCartIcon fontSize="large" color="primary"/>
       </StyledBadge>
     </IconButton>
   );
