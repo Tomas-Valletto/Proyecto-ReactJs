@@ -5,6 +5,7 @@ import ListaProductos from "./Section/ListaProductos";
 import { productos } from "./Section/ListaProductos";
 import Swal from "sweetalert2";
 import "./App.css";
+import "./Components/Producto";
 
 function App() {
   let productosCarritoId = [];
