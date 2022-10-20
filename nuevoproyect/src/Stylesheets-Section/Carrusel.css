@@ -11,13 +11,14 @@
   background-color: aquamarine;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   visibility: hidden;
   height: 0;
   width: 0;
   position: absolute;
   top: 0;
 }
+
 
 .carousel-control-next {
   right: 0;
@@ -30,8 +31,5 @@
 }
 
 
-@media screen and (min-width: 483px) and (max-width: 785px) {
-  .carrusel-imagen {
 
-  }
-}
+

@@ -7,7 +7,6 @@
   margin: 50px 30px 0px 30px;
 }
 
-
 @media screen and (min-width: 1505px) {
   .contenedor-lista-productos {
     display: grid;
@@ -20,7 +19,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
   }
-
 }
 @media screen and (min-width: 483px) and (max-width: 785px) {
   .contenedor-lista-productos {
@@ -34,4 +32,3 @@
     grid-template-columns: auto auto;
   }
 }
-
