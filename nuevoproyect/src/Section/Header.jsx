@@ -19,6 +19,7 @@ const Header = ({ contador }) => {
   useEffect(() => {
     window.addEventListener('resize', updateDimensions);
   },[])
+  
   return (
     <div className="contenedor-header">
         <Logo logo={image}/>

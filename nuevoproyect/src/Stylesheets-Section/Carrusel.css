@@ -1,17 +1,37 @@
 .contenedor-carrusel {
-  height: 200px;
+  height: 250px;
   margin: 15px 0;
 }
 
 .carrusel-imagen {
   width: 100%;
-  height: 150px;
+  height: 250px;
   object-fit: contain;
-  margin-top: 80px;
+  margin-top: 20px;
   background-color: aquamarine;
 }
 
 .carousel-indicators{
   visibility: hidden;
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 0;
 }
 
+.carousel-control-next {
+  right: 0;
+  height: 250px;
+}
+
+.carousel-control-prev {
+  left: 0;
+  height: 250px;
+}
+
+
+@media screen and (min-width: 483px) and (max-width: 785px) {
+  .carrusel-imagen {
+
+  }
+}

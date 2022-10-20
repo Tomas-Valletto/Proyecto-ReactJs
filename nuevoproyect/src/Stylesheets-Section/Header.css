@@ -9,5 +9,8 @@
   height: 110px;
   padding: 30px 40px 0px 10px;
   background-color: rgba(0, 0, 0, 0.829);
+  position: sticky;
+  top: 0;
+  z-index: 43;
 }
 
